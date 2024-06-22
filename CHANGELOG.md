@@ -1,3 +1,10 @@
+# [7.1.0-next.1](https://github.com/jorgebodega/typeorm-seeding/compare/v7.0.0...v7.1.0-next.1) (2024-06-22)
+
+
+### Features
+
+* install biome as formatter and linter ([#335](https://github.com/jorgebodega/typeorm-seeding/issues/335)) ([a195c27](https://github.com/jorgebodega/typeorm-seeding/commit/a195c271ed2dd2c44eb84a11e061732c0b5cc83e))
+
 # [7.0.0](https://github.com/jorgebodega/typeorm-seeding/compare/v6.0.1...v7.0.0) (2024-03-18)
 
 

@@ -1,3 +1,32 @@
+# [7.0.0](https://github.com/jorgebodega/typeorm-seeding/compare/v6.0.1...v7.0.0) (2024-03-18)
+
+
+### Bug Fixes
+
+* deprecation messages ([e523142](https://github.com/jorgebodega/typeorm-seeding/commit/e5231421610e92145779d798996dbddb62ee3d38))
+* eslint ([769263d](https://github.com/jorgebodega/typeorm-seeding/commit/769263d29ee1c8240b24ce2523229d02e621044d))
+* update dependency commander to v10 ([b43eca4](https://github.com/jorgebodega/typeorm-seeding/commit/b43eca4c4106557d95e70a95a8d08141ca65b389))
+* update dependency commander to v11 ([4eec67d](https://github.com/jorgebodega/typeorm-seeding/commit/4eec67d5390dfafbc42ad0ea68f68bb7b3b1936e))
+* update dependency commander to v12 ([12a46b1](https://github.com/jorgebodega/typeorm-seeding/commit/12a46b1f791755b8d57d3a1ecd3bd984984566d9))
+* update dependency glob to v10 ([859da14](https://github.com/jorgebodega/typeorm-seeding/commit/859da145303cc0ccc24dced4f1940c9ec8fb7a44))
+
+
+### chore
+
+* bump minimum node version ([c08c2b2](https://github.com/jorgebodega/typeorm-seeding/commit/c08c2b273d9eddc8fe1ce3d9b294c2e5f7e4c7df))
+
+
+### Features
+
+* upgrade node version ([b895adb](https://github.com/jorgebodega/typeorm-seeding/commit/b895adbac1ce2a541c02b78bd229f6081362950b))
+* upgrade typescript ([af5c2f7](https://github.com/jorgebodega/typeorm-seeding/commit/af5c2f76addd352e00538ea198e1ae794def5160))
+
+
+### BREAKING CHANGES
+
+* remove support for node 16
+* now Node 14 (lts) and 17 are out-of-life
+
 # [7.0.0-next.3](https://github.com/jorgebodega/typeorm-seeding/compare/v7.0.0-next.2...v7.0.0-next.3) (2024-03-18)
 
 # [7.0.0-next.2](https://github.com/jorgebodega/typeorm-seeding/compare/v7.0.0-next.1...v7.0.0-next.2) (2024-02-28)

@@ -1,4 +1,5 @@
 import type { DataSource } from "typeorm";
+import { importOrRequireFile } from "typeorm/util/ImportUtils";
 import { CommandUtils as TypeormCommandUtils } from "typeorm/commands/CommandUtils";
 import { Seeder } from "../seeder";
 import type { Constructable } from "../types";
@@ -8,8 +9,8 @@ export async function loadDataSource(dataSourceFilePath: string): Promise<DataSo
 }
 
 export async function loadSeeders(seederPaths: string[]): Promise<Constructable<Seeder>[]> {
-	const seederFileExports = (await Promise.all(seederPaths.map((seederFile) => import(seederFile))))
-		.map((seederExport) => seederExport.default?.default ?? seederExport.default)
+	const seederFileExports = (await Promise.all(seederPaths.map((seederFile) => importOrRequireFile(seederFile))))
+		.map(([seederExport]) => seederExport?.default ?? seederExport)
 		.filter((seederExport) => Boolean(seederExport));
 
 	if (seederFileExports.length === 0) {

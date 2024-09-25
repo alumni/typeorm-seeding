@@ -15,8 +15,8 @@ importers:
         specifier: 12.1.0
         version: 12.1.0
       glob:
-        specifier: 10.4.5
-        version: 10.4.5
+        specifier: 11.0.0
+        version: 11.0.0
       ora:
         specifier: 5.4.1
         version: 5.4.1

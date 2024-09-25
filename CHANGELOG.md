@@ -1,3 +1,10 @@
+# [7.1.0-next.2](https://github.com/jorgebodega/typeorm-seeding/compare/v7.1.0-next.1...v7.1.0-next.2) (2024-09-25)
+
+
+### Bug Fixes
+
+* update dependency glob to v11 ([#342](https://github.com/jorgebodega/typeorm-seeding/issues/342)) ([e5fb787](https://github.com/jorgebodega/typeorm-seeding/commit/e5fb7870960fd8bec9e3bc8afd158753a320d191))
+
 # [7.1.0-next.1](https://github.com/jorgebodega/typeorm-seeding/compare/v7.0.0...v7.1.0-next.1) (2024-06-22)
 
 
